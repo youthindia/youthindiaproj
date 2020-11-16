@@ -4,7 +4,6 @@ There are **2** files in *img* and *css* Folders and **1** common *js* folder
 
 ##      index.html(Home Page)
 
-#### To be done by *Satyarth Yadav* (half of it has been done by me)
 
 **css** Files->
 css/home/
@@ -16,8 +15,6 @@ img/home/
 
 ##      about.html(About Page)
 
-#### To be Done by *Shivani Yadav* & *Rohan Tyagi*
-
 **css** Files->
 css/about/
     -style.css
@@ -26,12 +23,22 @@ css/about/
 **img** Files->
 img/about/
 
+##      work.html(Works Page)
+
+**css** Files->
+css/work/
+    -style.css
+    -media.css(for applying media Queries)
+
+**img** Files->
+img/work/
+
 #####   Common Javascript folder -> 
 
 **js** file->
 js/app.js
 
-### (Boiler Plates for Both *index.html* and *about.html* has been provided)
+### (Boiler Plates for ALL *Files* have been provided)
 *you just need to write the code*
 
 *fonts have been declared in the style.css file by the variabe names(eg.- var(--montserrat))*
