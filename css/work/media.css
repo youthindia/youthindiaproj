@@ -34,6 +34,10 @@
     width: 200px;
   }
 
+  .e-commerce span:after {
+    margin-top: 80px;
+    margin-left: 33px;
+  }
   #our-events .line1 {
     padding-top: 100px;
     padding-left: 120px;
@@ -125,13 +129,13 @@
   }
 
   .btn-orange {
-    margin-left: 150px !important;
+    margin-left: 200px !important;
     margin-top: 20px;
     border-radius: 0;
     width: 200px;
   }
   .btn-blog {
-    margin-left: 150px !important;
+    margin-left: 0px !important;
     margin-top: 20px;
     border-radius: 0;
     width: 200px;
