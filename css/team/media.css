@@ -29,7 +29,7 @@
   }
   #our-founders {
     background: #f5b461;
-    height: 5300px;
+    height: 5000px;
   }
 
   .bg-blue {
@@ -349,7 +349,7 @@
     text-align: justify;
   }
   #platform {
-    height: 1700px;
+    height: 1250px;
   }
 
   #platform .line1 {
@@ -462,6 +462,32 @@
   padding: 0;
 }
 
+#vp-gen{
+  height: 1750px !important;
+}
+
+.gen-sec{
+  grid-template-columns: 1fr;
+  padding-top: 2%;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+.gen-sec-container img{
+  width:70%;
+  margin:0 auto;
+  display: block;
+}
+
+.gen-sec-container h3{
+  padding-top: 4%;
+}
+
+.gen-sec-container h4{
+  padding-top: 2%;
+}
+
 #footer p {
   font-size: 15px;
 }
@@ -473,6 +499,7 @@
   filter: invert(100%);
 }
 }
+
 /* tablets */
 @media (max-width: 1024px) and (min-width: 768px) {
   h1 {
@@ -643,7 +670,7 @@
   }
 
   #vp-gen {
-    height: 1000px;
+    height: 700px;
   }
 
   #vp-gen .line1 {

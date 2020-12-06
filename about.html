@@ -11,6 +11,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap"
     rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- icons -->
   <script src="https://kit.fontawesome.com/e89e68dc1f.js" crossorigin="anonymous"></script>
 
@@ -23,6 +24,10 @@
   <link rel="stylesheet" href="css/about/media.css" />
 
   <title>Youth India Foundation</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body id="page-top">
@@ -62,14 +67,14 @@
   <!-- ABOUT-US-SECTION -->
   <section id="about-us">
     <div class="container">
-      <div class="row">
+      <div class="row" data-aos="fade-down">
         <div class="col">
           <h1 class="line1">About</h1>
           <h1 class="line2">Us</h1>
         </div>
       </div>
 
-      <div class="row mt-4">
+      <div class="row mt-4" data-aos="fade-up">
         <div class="col-4" style="border-right: 2px solid teal; padding-right: 1px"></div>
         <div class="col-md-8">
           <p>
@@ -94,14 +99,14 @@
 
   <section id="our-vision">
     <div class="container">
-      <div class="row">
+      <div class="row" data-aos="fade-down">
         <div class="col mt-2">
           <h1 class="line1">Our</h1>
           <h1 class="line2">Vision</h1>
         </div>
       </div>
 
-      <div class="row mt-2">
+      <div class="row mt-2" data-aos="fade-up">
         <div class="col-4" style="border-right: 2px solid green; padding-right: 1px"></div>
         <div class="col-md-8 py-2">
           <p>
@@ -123,7 +128,7 @@
 
   <section id="our-mission">
     <div class="container">
-      <div class="row">
+      <div class="row" data-aos="fade-up">
         <div class="col mt-2">
           <h1 class="line1">Our</h1>
           <h1 class="line2">Mission</h1>
@@ -132,7 +137,7 @@
 
       <div class="row mt-2">
         <div class="col-md-4" style="border-right: 2px solid #db6400; padding-right: 1px"></div>
-        <div class="col-md-8 py-2">
+        <div class="col-md-8 py-2" data-aos="fade-down">
           <p>
             Like our vision: "We make a living from what we get, but we make a
             life from what we give", we whole-heartedly believe that we can
@@ -153,28 +158,24 @@
   </section>
 
   <!-- FOOTER -->
-  <footer id="footer" class="pt-5">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <div class="mb-3">
-            <button type="button" class="btn btn-green social-icons">
-              <i class="fa fa-facebook fa-3x"></i>
-            </button>
-            <button type="button" class="btn btn-green social-icons">
-              <i class="fa fa-instagram fa-3x"></i>
-            </button>
-            <button type="button" class="btn btn-green social-icons">
-              <i class="fa fa-twitter fa-3x"></i>
-            </button>
-            <button type="button" class="btn btn-green social-icons">
-              <i class="fa fa-linkedin fa-3x"></i>
-            </button>
-          </div>
-          <p>&copy; 2020 by Youth India Foundation</p>
-        </div>
+  <footer id="footer">
+    <div class="footer-links">
+      <div class="social-link">
+        <a href="https://www.facebook.com/youthindiaFDN/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+      </div>
+      <div class="social-link">
+        <a href="https://twitter.com/YouthIndia_FDN" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+      </div>
+      <div class="social-link">
+        <a href="https://www.instagram.com/youthindiafoundation/" target="_blank"><i
+            class="fab fa-instagram fa-2x"></i></a>
+      </div>
+      <div class="social-link">
+        <a href="https://www.linkedin.com/company/youth-india-foundation/" target="_blank"><i
+            class="fab fa-linkedin-in fa-2x"></i></a>
       </div>
     </div>
+    <p class="footnote">&copy; Youth India Foundation 2020</p>
   </footer>
   <!--Botstrap jquery-->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -185,7 +186,11 @@
     crossorigin="anonymous"></script>
 
   <!-- custom js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="js/app.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
