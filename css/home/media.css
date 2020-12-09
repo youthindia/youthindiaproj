@@ -214,6 +214,10 @@
     background: orange;
     color: white;
   }
+  .action{
+    bottom:30px;
+    right: 13px;
+  }
 }
 
 /* tablets */
