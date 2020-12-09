@@ -784,7 +784,7 @@ hr {
 }
 
 .action.active span{
-  transform: rotate(45deg);
+  transform: rotate(275deg);
 }
 
 .action ul{

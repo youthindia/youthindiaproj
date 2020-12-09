@@ -85,39 +85,63 @@
         <div class="page">
           <div class="title">More Details:</div>
           <div class="field">
-            <div class="label">Team</div>
-            <select>
-              <option>West Bengal</option>
-              <option>Delhi</option>
-              <option>Odhisa</option>
-              <option>Maharastra</option>
-              <option>Tamil Nadu</option>
-              <option>Karnataka</option>
-              <option>Outreach</option>
-              <option>Your-Friend</option>
-              <option>E-school</option>
-              <option>E-Commerce</option>
-              <option>Media House</option>
-              <option>Kalatirth</option>
+            <div class="label">Choose Your Preferred Division</div>
+            <select id="division">
+              <option value="national">National</option>
+              <option value="state">State</option>
+              <option value="society">Society</option>
+              <option value="outreach">Outreach</option>
+              <option value="initiative">Initiative</option>
             </select>
           </div>
+          <div class="field hidden" id="state">
+            <div class="label">Choose Your Preferred State</div>
+            <select>
+              <option>Maharashtra</option>
+              <option>Odisha</option>
+              <option>Tamil Nadu</option>
+              <option>West Bengal</option>
+              <option>Karnataka</option>
+              <option>Delhi</option>
+            </select>
+          </div>
+          <div class="field hidden" id="society">
+            <div class="label">Choose Your Preferred Society</div>
+            <select>
+              <option>Cathedral Road</option>
+              <option>Behala</option>
+              <option>Ruby</option>
+            </select>
+          </div>
+          <div class="field hidden" id="initiative">
+            <div class="label">Choose Your Preferred Initiative</div>
+            <select>
+              <option>Your Friend</option>
+              <option>E-School</option>
+              <option>E-commerce</option>
+            </select>
+          </div>
+
           <div class="field">
             <div class="label">City</div>
             <input type="text">
           </div>
           <div class="field">
-            <div class="label">College Name</div>
-            <input type="text">
+            <div class="label">Select Your Education</div>
+            <select id="edu">
+              <option value="school">School</option>
+              <option value="college">College</option>
+              <option value="graduate">Graduate</option>
+              <option value="post-graduate">Post-Graduate</option>
+            </select>
           </div>
           <div class="field">
-            <div class="label">College year</div>
-            <select>
-              <option>1st</option>
-              <option>2nd</option>
-              <option>3rd</option>
-              <option>4th</option>
-              <option>5th</option>
-            </select>
+            <div class="label">Institute Name</div>
+            <input type="text">
+          </div>
+          <div class="field hidden" id="edu-level">
+            <div class="label">School Standard/College year</div>
+            <input type="text">
           </div>
           <div class="field btns">
             <button class="prev-1 prev">Previous</button>
@@ -129,15 +153,40 @@
           <div class="title">Area of Interest:</div>
           <div class="field">
             <div class="label">Department</div>
+            <select id="department">
+              <option value="marketing">Marketing</option>
+              <option value="it">IT</option>
+              <option value="management">Management</option>
+              <option value="pub-rel">Public Relations</option>
+              <option value="finance">Finance</option>
+              <option value="hr">Human Resources</option>
+            </select>
+          </div>
+          <div class="field hidden" id="marketing">
+            <div class="label">Sub-Department</div>
             <select>
-              <option>Marketing</option>
               <option>Content Writing</option>
-              <option>IT/Web Designing</option>
-              <option>Management</option>
-              <option>Public Relations</option>
-              <option>Videography/GD</option>
-              <option>Finance</option>
-              <option>Human Resources</option>
+              <option>Instagram Handler</option>
+            </select>
+          </div>
+          <div class="field hidden" id="it">
+            <div class="label">Sub-Department</div>
+            <select>
+              <option>Web development</option>
+              <option>Video Editing</option>
+              <option>Graphic Designing</option>
+            </select>
+          </div>
+          <div class="field hidden" id="pub-rel">
+            <div class="label">Sub-Department</div>
+            <select>
+              <option>Grievance Head</option>
+            </select>
+          </div>
+          <div class="field hidden" id="finance">
+            <div class="label">Sub-Department</div>
+            <select>
+              <option>Sponcorship</option>
             </select>
           </div>
           <div class="field">
