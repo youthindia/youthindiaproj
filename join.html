@@ -17,7 +17,7 @@
   <link rel="manifest" href="/site.webmanifest">
 </head>
 
-<body>
+<body onload="disableSubmit()">
   <div class="container">
     <i class="fas fa-arrow-left left-arrow"></i><a href="index.html"><button class="back-button"
         style="cursor: pointer;">Back To
@@ -163,14 +163,14 @@
             </select>
           </div>
           <div class="field hidden" id="marketing">
-            <div class="label">Sub-Department</div>
+            <div class="label">Available Positions:</div>
             <select>
               <option>Content Writing</option>
               <option>Instagram Handler</option>
             </select>
           </div>
           <div class="field hidden" id="it">
-            <div class="label">Sub-Department</div>
+            <div class="label">Available Positions</div>
             <select>
               <option>Web development</option>
               <option>Video Editing</option>
@@ -178,13 +178,13 @@
             </select>
           </div>
           <div class="field hidden" id="pub-rel">
-            <div class="label">Sub-Department</div>
+            <div class="label">Available Positions</div>
             <select>
               <option>Grievance Head</option>
             </select>
           </div>
           <div class="field hidden" id="finance">
-            <div class="label">Sub-Department</div>
+            <div class="label">Available Positions</div>
             <select>
               <option>Sponcorship</option>
             </select>
@@ -220,9 +220,15 @@
               <input type="file" style="color:transparent; width:130px; height:28px; " />
             </form>
           </div>
+          <div class="field">
+            <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)"
+              style="width:130px; height:28px;" />
+            <label style="color: red;"> I Agree To Terms &
+              Coditions</label>
+          </div>
           <div class="field btns">
             <button class="prev-3 prev">Previous</button>
-            <button class="submit">Submit</button>
+            <button class="submit" type="submit" name="submit" id="submit">Submit</button>
           </div>
         </div>
       </form>
