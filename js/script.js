@@ -143,3 +143,21 @@ dept.onclick = function () {
     document.getElementById('finance').classList.add('hidden');
   }
 }
+
+//submit
+function disableSubmit() {
+  document.getElementById("submit").disabled = true;
+  document.getElementById("submit").style.cursor = "not-allowed";
+}
+
+function activateButton(element) {
+
+  if (element.checked) {
+    document.getElementById("submit").style.cursor = "pointer";
+    document.getElementById("submit").disabled = false;
+  }
+  else {
+    document.getElementById("submit").style.cursor = "not-allowed";
+    document.getElementById("submit").disabled = true;
+  }
+}
